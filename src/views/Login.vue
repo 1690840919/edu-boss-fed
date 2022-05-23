@@ -1,6 +1,8 @@
 <template>
   <div class="loginPage">
     {{ name }}
+    <el-button type="primary">主要按钮</el-button>
+    <i class="el-icon-delete"></i>
   </div>
 </template>
 
