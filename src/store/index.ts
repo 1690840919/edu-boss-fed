@@ -3,8 +3,9 @@ import Vuex from 'vuex'
 
 Vue.use(Vuex)
 
-export default new Vuex.Store({
+const store = new Vuex.Store({
   state: {
+    name: 'beitu'
   },
   mutations: {
   },
@@ -13,3 +14,5 @@ export default new Vuex.Store({
   modules: {
   }
 })
+
+export default store
