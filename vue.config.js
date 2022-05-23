@@ -17,7 +17,7 @@ module.exports = {
         '@': resolve('src')
       }
     }
-  },
+  }
   // 跨域配置
   // devServer: {
   //   open: true,
